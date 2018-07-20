@@ -1,0 +1,6 @@
+{
+    "[task_prompt]":"en: Please choose from the following items",
+    "[task1]":"en: task1 description",
+    "[task2]":"en: task2 description",
+    "[task3]":"en: task3 description"
+}

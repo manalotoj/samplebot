@@ -1,0 +1,4 @@
+{
+    "[task_prompt]":"in: Please choose from the following items",
+    "[choice_options]":"in: task1 | in: task2 | in: task3"
+}
