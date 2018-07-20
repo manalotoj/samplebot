@@ -22,7 +22,7 @@ lib.dialog('/', [
                 locale = 'in';
                 break;
             case 'Norsk':
-                locale = 'pl';
+                locale = 'nn';
                 break;
             case 'Zhōngwén':
                 locale = 'zh';
