@@ -1,4 +1,6 @@
 {
     "[task_prompt]":"in: Please choose from the following items",
-    "[choice_options]":"in: task1 | in: task2 | in: task3"
+    "[task1]":"in: task1 description",
+    "[task2]":"in: task2 description",
+    "[task3]":"in: task3 description"
 }

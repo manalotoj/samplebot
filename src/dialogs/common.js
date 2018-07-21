@@ -3,6 +3,7 @@ var builder = require('botbuilder');
 var lib = new builder.Library('common');
 lib.dialog('anotherTask', [
     function (session) {
+        session.save();
         builder.Prompts.confirm(session, '[another_task_prompt]');
     },
     function (session, args) {

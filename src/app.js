@@ -3,11 +3,6 @@ var builder = require('botbuilder');
 var azure = require('botbuilder-azure'); 
 require('dotenv-extended').load();
 
-console.log("host: " + process.env.CosmosDbHost);
-console.log("key: " + process.env.CosmosDbKey);
-console.log("database: " + process.env.CosmosDbDatabaseId);
-console.log("collection: " + process.env.CosmosDbCollectionId);
-
 var documentDbOptions = {
     host: process.env.CosmosDbHost,
     masterKey: process.env.CosmosDbKey,
@@ -46,8 +41,8 @@ bot.library(require('./dialogs/mainMenu').createLibrary());
 bot.library(require('./dialogs/task1').createLibrary());
 bot.library(require('./dialogs/task2').createLibrary());
 bot.library(require('./dialogs/task3').createLibrary());
-// add root dialog
 
+// add root dialog
 bot.dialog('/', [
     function (session, args) {
         console.log('begin root dialog');
